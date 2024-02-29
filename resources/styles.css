@@ -1,5 +1,5 @@
 * {
-    font-family: montserrat;
+    font-family: 'Poppins';
 }
 
 body {
@@ -42,7 +42,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.3);
     z-index: 1;
 }
 
@@ -73,10 +73,41 @@ body {
     height: 100vh;
 }
 
+.services .card-body i {
+    font-size: 50px;
+}
+
 /* === RESPONSIVE CSS === */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+    
+    .carousel-caption p {
+       width: 100%; 
+    }
+}
+
 
 @media only screen and (max-width: 767px){
     .navbar-nav {
         text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
     }
 }
