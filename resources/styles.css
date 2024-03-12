@@ -77,6 +77,18 @@ body {
     font-size: 50px;
 }
 
+.team .card-body i {
+    font-size: 25px;
+}
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
 /* === RESPONSIVE CSS === */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -86,6 +98,14 @@ body {
     
     .carousel-caption p {
        width: 100%; 
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
+        width: 100%;
     }
 }
 
